@@ -1,0 +1,10 @@
+{
+  "simulation": "Sample",
+  "simulationId": "sample",
+  "start": 1596130687374,
+  "description": "",
+  "scenarios": ["http://dummy.restapiexample.com/"],
+  "assertions": [
+
+  ]
+}

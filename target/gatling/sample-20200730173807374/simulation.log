@@ -1,0 +1,4 @@
+RUN	Sample	sample	1596130687374	 	3.3.1
+USER	http://dummy.restapiexample.com/	1	START	1596130692465	1596130692465
+REQUEST	1		Get Employee Details Using ID	1596130692519	1596130692930	KO	j.n.UnknownHostException: my.website.tld
+USER	http://dummy.restapiexample.com/	1	END	1596130692465	1596130692982
