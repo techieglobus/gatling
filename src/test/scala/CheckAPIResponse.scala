@@ -34,10 +34,4 @@ class CheckAPIResponse extends Simulation {
 
      setUp(scn.inject(atOnceUsers(1)).protocols(httpProtocol))
 
-    //val price = System.getProperty("price")
-    //printf("<price>%s</price>",price)
-    //val bodyFile = "./src/test/scala/sample.json"
-    //val content = Source.fromFile(bodyFile).getLines.mkString
-    //printf("%s",content)
-
 }
