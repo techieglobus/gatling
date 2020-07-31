@@ -40,7 +40,7 @@
         <artifactId>gatling-maven-plugin</artifactId>
         <version>${gatling-maven-plugin.version}</version>
          <configuration>
-           <simulationClass>org.baeldung.${SimulationClass}</simulationClass>
+           <simulationClass>CheckAPIResponse</simulationClass>
         </configuration>
       </plugin>
     </plugins>
