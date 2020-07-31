@@ -2,7 +2,9 @@ pipeline {
     agent any
     stages {
         stage('File Upload') {
+            steps {
           writeFile file: 'sample1.json', text: params.REQ_BODY
+           }
         }
         stage("Build Maven") {
             steps {
