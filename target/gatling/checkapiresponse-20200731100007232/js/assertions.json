@@ -1,0 +1,10 @@
+{
+  "simulation": "CheckAPIResponse",
+  "simulationId": "checkapiresponse",
+  "start": 1596189607232,
+  "description": "",
+  "scenarios": ["Check API Response"],
+  "assertions": [
+
+  ]
+}

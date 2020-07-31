@@ -5,15 +5,17 @@ import scala.concurrent.duration._
 class Sample extends Simulation {
 
   val httpProtocol = http.baseUrl("http://dummy.restapiexample.com")
-  var scn = scenario("Test APIs")
+  val scn = scenario("Test APIs")
 
     .exec(
         http("Get Employees")
         .get("/api/v1/employees")
     )
+      
     .exec(
         http("Get Individual Details Using ID")
         .get("/api/v1/employee/2")
+         
     )
     .exec(
         http("First POST Request")
@@ -27,6 +29,9 @@ class Sample extends Simulation {
        .body(StringBody(""" {"name":"Sammy","salary":"10000000","age":"30"} """))
        .check(status.is(200))
     )   
-
+    
     setUp(scn.inject(atOnceUsers(1)).protocols(httpProtocol))
+    val price = System.getProperty("price")
+    val lab = System.getProperty("lab")
+    printf("<price>%s</price><lab>%s</lab>",price,lab)
 }
