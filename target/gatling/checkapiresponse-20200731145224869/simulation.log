@@ -1,0 +1,6 @@
+RUN	CheckAPIResponse	checkapiresponse	1596207144869	 	3.3.1
+USER	Check API Response	1	START	1596207150498	1596207150498
+REQUEST	1		Get All Employees	1596207150711	1596207155598	OK	 
+ERROR	Update Employee: Failed to build request: No attribute named 'content' is defined 	1596207155681
+REQUEST	1		Get Our Employee	1596207155701	1596207156858	OK	 
+USER	Check API Response	1	END	1596207150498	1596207156872
