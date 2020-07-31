@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('File Upload') {
             steps {
-          writeFile file: 'sample1.json', text: params.REQ_BODY
+          writeFile file: './src/test/scala/sample.json', text: params.REQ_BODY
            }
         }
         stage("Build Maven") {
