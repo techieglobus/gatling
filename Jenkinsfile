@@ -1,11 +1,8 @@
 pipeline {
     agent any
     stages {
-        stage("Upload File") {
-            steps {
-                def inputFile = input message: 'Upload file', parameters: [file(name: 'sample1.json')]
-                  new hudson.FilePath(new File("$workspace/sample1.json")).copyFrom(inputFile)
-            }
+        stage('File Upload') {
+          writeFile file: 'sample1.json', text: params.REQ_BODY
         }
         stage("Build Maven") {
             steps {
