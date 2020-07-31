@@ -8,7 +8,7 @@ pipeline {
         }
         stage("Run Gatling") {
             steps {
-               bat  '''mvn gatling:test'''
+               bat  '''mvn gatling:test -Dprice="$price"'''
             }
             post {
                 always {
