@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('File Upload') {
             steps {
-          writeFile file: './src/test/scala/sample.json', text: params.REQ_BODY
+          writeFile file: './src/test/scala/sample.json', text: params.BODY
            }
         }
         stage("Build Maven") {
@@ -14,7 +14,7 @@ pipeline {
         
         stage("Run Gatling") {
             steps {
-               bat  '''mvn gatling:test -Dprice="%price%"'''
+               bat  '''mvn gatling:test -Durl="%URL%" -Dmethods="%METHODS%" -Dheaders=%HEADERS% -Dtransaction_name=%TRANSACTION_NAME% -Dusers=%USERS%'''
             }
             post {
                 always {

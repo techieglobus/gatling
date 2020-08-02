@@ -17,7 +17,7 @@ class CheckAPIResponse extends Simulation {
 
     
     .exec(
-        http("Update Employee")
+        http("Create new post")
         .post("/posts")
         .headers(Map(
                         "User-Agent" -> "Safari/602.1",
