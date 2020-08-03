@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Upload Request Body') {
             steps {
-          writeFile file: './src/test/scala/sample.json', text: params.BODY
+          writeFile file: './src/test/scala/body.json', text: params.BODY
            }
         }
         stage('Upload Request Headers') {
@@ -19,7 +19,7 @@ pipeline {
         
         stage("Run Gatling") {
             steps {
-               bat  '''mvn gatling:test -Dgatling.simulationClass=JMDAPI -Durl="%URL%" -Dmethods="%METHODS%" -Dtransaction_name=%TRANSACTION_NAME% -Dusers=%USERS%'''
+               bat  '''mvn gatling:test -Dgatling.simulationClass=JMDAPI -DURL="%URL%" -DMETHOD="%METHOD%" -DTRANSACTION_NAME=%TRANSACTION_NAME% -DUSERS=%USERS%'''
             }
             post {
                 always {
