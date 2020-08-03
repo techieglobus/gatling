@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Upload Request Body') {
             steps {
+          echo "%BODY%"
           writeFile file: './src/test/scala/body.dat', text: params.BODY
            }
         }
