@@ -1,0 +1,4 @@
+RUN	APITestingScript	apitestingscript	1596468660952	 	3.3.1
+ERROR	GET_ALL_POSTS: Failed to build request: No attribute named 'transaction_url' is defined 	1596468665450
+USER	Performance Monitoring Automation	1	END	1596468665432	1596468665476
+USER	Performance Monitoring Automation	1	START	1596468665432	1596468665432

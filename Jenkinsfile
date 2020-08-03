@@ -19,7 +19,7 @@ pipeline {
         
         stage("Run Gatling") {
             steps {
-               bat  '''mvn gatling:test -Dgatling.simulationClass=APITestingScript -Durl="%URL%" -Dmethods="%METHODS%" -Dtransaction_name=%TRANSACTION_NAME% -Dusers=%USERS%'''
+               bat  '''mvn gatling:test -Dgatling.simulationClass=JMDAPI -Durl="%URL%" -Dmethods="%METHODS%" -Dtransaction_name=%TRANSACTION_NAME% -Dusers=%USERS%'''
             }
             post {
                 always {

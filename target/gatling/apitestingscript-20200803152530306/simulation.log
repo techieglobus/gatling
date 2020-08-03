@@ -1,0 +1,4 @@
+RUN	APITestingScript	apitestingscript	1596468330306	 	3.3.1
+ERROR	GET ALL EMPLOYEE: Failed to build request: No attribute named 'transaction_url' is defined 	1596468334844
+USER	Performance Monitoring Automation	1	START	1596468334823	1596468334823
+USER	Performance Monitoring Automation	1	END	1596468334823	1596468334877

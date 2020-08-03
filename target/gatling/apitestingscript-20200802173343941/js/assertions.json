@@ -1,0 +1,10 @@
+{
+  "simulation": "APITestingScript",
+  "simulationId": "apitestingscript",
+  "start": 1596389623941,
+  "description": "",
+  "scenarios": ["Check API Response"],
+  "assertions": [
+
+  ]
+}

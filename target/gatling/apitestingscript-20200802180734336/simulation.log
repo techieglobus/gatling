@@ -1,0 +1,4 @@
+RUN	APITestingScript	apitestingscript	1596391654336	 	3.3.1
+USER	Performance Monitoring Automation	1	START	1596391657869	1596391657869
+REQUEST	1		Get All Posts	1596391657916	1596391660654	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:80
+USER	Performance Monitoring Automation	1	END	1596391657869	1596391660676
