@@ -9,8 +9,10 @@ class JMDAPI extends Simulation {
    val methods = System.getProperty("METHODS","GET")
    val transaction_name = System.getProperty("TRANSACTION_NAME","GET_ALL_POSTS")
    val users = System.getProperty("USERS","1")
-   val headersJson = "./src/test/scala/headers.json"
-   val headers = Source.fromFile(headersJson).getLines.mkString
+   val headersData = "./src/test/scala/headers.dat"
+   val headers = Source.fromFile(headersData).getLines.mkString
+   val bodyData = "./src/test/scala/body.dat"
+   val body = Source.fromFile(bodyData).getLines.mkString
 
    val httpProtocol = http.baseUrl(url)
 
@@ -33,7 +35,17 @@ class JMDAPI extends Simulation {
             .check(bodyString.saveAs(key = "responseBody")))
             .exec { session => println(session("responseBody").as[String]); session }
              }
-           )
+           ),
+          "CREATE_POST" -> exec(
+           doIfEquals(methods, "POST")
+           {
+             exec(http(requestName=transaction_name)
+            .post(endpoint)
+            .headers(Map(headers))
+            .body(StringBody(body))
+            .check(status.is(200)))
+             }
+          )
        )
      
      setUp(scn.inject(atOnceUsers(1)).protocols(httpProtocol))

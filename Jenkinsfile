@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Upload Request Body') {
             steps {
-          writeFile file: './src/test/scala/body.json', text: params.BODY
+          writeFile file: './src/test/scala/body.dat', text: params.BODY
            }
         }
         stage('Upload Request Headers') {
             steps {
-          writeFile file: './src/test/scala/headers.json', text: params.HEADERS
+          writeFile file: './src/test/scala/headers.dat', text: params.HEADERS
            }
         }
         stage("Build Maven") {
