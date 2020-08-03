@@ -4,7 +4,8 @@ import scala.io.Source
 
 class JMDAPI extends Simulation {
      
-   val url = System.getProperty("URL","http://localhost:3000/posts")
+   val url = System.getProperty("URL","http://localhost:3000")
+   var endpoint = System.getProperty("ENDPOINT","/posts")
    val methods = System.getProperty("METHODS","GET")
    val transaction_name = System.getProperty("TRANSACTION_NAME","GET_ALL_POSTS")
    val users = System.getProperty("USERS","1")
@@ -19,7 +20,7 @@ class JMDAPI extends Simulation {
            doIfEquals(methods, "GET")
            {
              exec(http(requestName=transaction_name)
-            .get(url)
+            .get(endpoint)
             .check(bodyString.saveAs(key = "responseBody")))
             .exec { session => println(session("responseBody").as[String]); session }
              }
@@ -28,7 +29,7 @@ class JMDAPI extends Simulation {
            doIfEquals(methods, "GET")
            {
              exec(http(requestName=transaction_name)
-            .get("/posts/1")
+            .get(endpoint)
             .check(bodyString.saveAs(key = "responseBody")))
             .exec { session => println(session("responseBody").as[String]); session }
              }
