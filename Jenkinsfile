@@ -1,9 +1,14 @@
 pipeline {
     agent any
     stages {
-        stage('File Upload') {
+        stage('Upload Request Body') {
             steps {
           writeFile file: './src/test/scala/sample.json', text: params.BODY
+           }
+        }
+        stage('Upload Request Headers') {
+            steps {
+          writeFile file: './src/test/scala/headers.json', text: params.HEADERS
            }
         }
         stage("Build Maven") {
@@ -14,7 +19,7 @@ pipeline {
         
         stage("Run Gatling") {
             steps {
-               bat  '''mvn gatling:test -Dgatling.simulationClass=APITestingScript -Durl="%URL%" -Dmethods="%METHODS%" -Dheaders=%HEADERS% -Dtransaction_name=%TRANSACTION_NAME% -Dusers=%USERS%'''
+               bat  '''mvn gatling:test -Dgatling.simulationClass=APITestingScript -Durl="%URL%" -Dmethods="%METHODS%" -Dtransaction_name=%TRANSACTION_NAME% -Dusers=%USERS%'''
             }
             post {
                 always {
