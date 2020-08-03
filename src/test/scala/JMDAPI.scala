@@ -28,7 +28,7 @@ class JMDAPI extends Simulation {
            doIfEquals(methods, "GET")
            {
              exec(http(requestName=transaction_name)
-            .get(url)
+            .get("/posts/1")
             .check(bodyString.saveAs(key = "responseBody")))
             .exec { session => println(session("responseBody").as[String]); session }
              }
