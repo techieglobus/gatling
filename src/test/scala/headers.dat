@@ -1,1 +1,2 @@
-Content-Type -> application/json
+Content-Type->application/json,
+User-Agent->Safari/602.1

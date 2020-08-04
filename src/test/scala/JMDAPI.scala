@@ -1,6 +1,7 @@
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 import scala.io.Source
+import io.gatling.core.body.Body
 
 class JMDAPI extends Simulation {
      
@@ -10,17 +11,14 @@ class JMDAPI extends Simulation {
    val transaction_name = System.getProperty("TRANSACTION_NAME","GET_ALL_POSTS")
    val users = System.getProperty("USERS","1")
    val headersData = "./src/test/scala/headers.dat"
-   val headers = Source.fromFile(headersData).getLines.mkString
+   val headers = Source.fromFile(headersData).getLines.mkString.replaceAll("[\n\r]", "")
    val bodyData = "./src/test/scala/body.dat"
-   //val body = Source.fromFile(bodyData).getLines.mkString
-  val body = """{    "title": "Docker Containers",    "author": "nics"}"""
+   val body = Source.fromFile(bodyData).getLines.mkString
    val httpProtocol = http.baseUrl(url)
-   println(headers)
    val headersParse = headers.split(",").map(_.split("->")).map(arr => arr(0) -> arr(1)).toMap
-   println(headersParse)
-   //val sentHeaders = Map("Content-Type" -> "application/json", "User-Agent" -> "Safari/602.1")
-  // println(sentHeaders)
-   println(body)
+   //val tmp = headers.split(",")
+   //val tmp2 = tmp.map(_.split("->")).map(arr => arr(0) -> arr(1)).toMap
+
     printf("URL : %s",url)
     printf("ENDPOINT : %s",endpoint)
     printf("METHODS : %s",methods)
@@ -53,12 +51,11 @@ class JMDAPI extends Simulation {
              exec(http(requestName=transaction_name)
             .post(endpoint)
             .headers(headersParse)
-            .body(StringBody(body))
+             .body(StringBody(body))
             .check(status.is(201)))
              }
           )
-       )
-     
+       )  
      setUp(scn.inject(atOnceUsers(1)).protocols(httpProtocol))
 
 }
