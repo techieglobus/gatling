@@ -6,19 +6,26 @@ class JMDAPI extends Simulation {
      
    val url = System.getProperty("URL","http://localhost:3000")
    var endpoint = System.getProperty("ENDPOINT","/posts")
-   val methods = System.getProperty("METHODS","GET")
+   val methods = System.getProperty("METHODS","POST")
    val transaction_name = System.getProperty("TRANSACTION_NAME","GET_ALL_POSTS")
    val users = System.getProperty("USERS","1")
    val headersData = "./src/test/scala/headers.dat"
    val headers = Source.fromFile(headersData).getLines.mkString
    val bodyData = "./src/test/scala/body.dat"
-   val body = Source.fromFile(bodyData).getLines.mkString
-  
+   //val body = Source.fromFile(bodyData).getLines.mkString
+  val body = """{    "title": "Docker Containers",    "author": "nics"}"""
    val httpProtocol = http.baseUrl(url)
    println(headers)
    val headersParse = headers.split(",").map(_.split("->")).map(arr => arr(0) -> arr(1)).toMap
    println(headersParse)
+   //val sentHeaders = Map("Content-Type" -> "application/json", "User-Agent" -> "Safari/602.1")
+  // println(sentHeaders)
    println(body)
+    printf("URL : %s",url)
+    printf("ENDPOINT : %s",endpoint)
+    printf("METHODS : %s",methods)
+    printf("TRANSACTION_NAME : %s",transaction_name)
+    printf("USERS : %s",users)
 
    val scn = scenario("Test APIs")
      .doSwitch(transaction_name)( 
@@ -47,7 +54,7 @@ class JMDAPI extends Simulation {
             .post(endpoint)
             .headers(headersParse)
             .body(StringBody(body))
-            .check(status.is(200)))
+            .check(status.is(201)))
              }
           )
        )
