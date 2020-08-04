@@ -7,7 +7,7 @@ class BlogApiTesting extends Simulation {
      
    val url = System.getProperty("URL","http://localhost:3000")
    var endpoint = System.getProperty("ENDPOINT","/posts")
-   val methods = System.getProperty("METHODS","POST")
+   val method = System.getProperty("METHOD","POST")
    val transaction_name = System.getProperty("TRANSACTION_NAME","GET_ALL_POSTS")
    val users = System.getProperty("USERS","1")
    val headersData = "./src/test/scala/headers.dat"
@@ -25,7 +25,7 @@ class BlogApiTesting extends Simulation {
 
    val scn = scenario("Blog APIs Testing")
 
-           .doIfEquals(methods, "GET")
+           .doIfEquals(method, "GET")
            {
              exec(http(requestName=transaction_name)
             .get(endpoint)
@@ -33,7 +33,7 @@ class BlogApiTesting extends Simulation {
             .exec { session => println(session("responseBody").as[String]); session }
              }
 
-           .doIfEquals(methods, "POST")
+           .doIfEquals(method, "POST")
            {
              exec(http(requestName=transaction_name)
             .post(endpoint)
