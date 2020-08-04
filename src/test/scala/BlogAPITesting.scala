@@ -19,7 +19,7 @@ class BlogApiTesting extends Simulation {
    println(headersParse)
    printf("URL : %s",url)
    printf("ENDPOINT : %s",endpoint)
-   printf("METHODS : %s",methods)
+   printf("METHODS : %s",method)
    printf("TRANSACTION_NAME : %s",transaction_name)
    printf("USERS : %s",users)
 
