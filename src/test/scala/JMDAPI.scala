@@ -18,7 +18,7 @@ class JMDAPI extends Simulation {
    val headersParse = headers.split(",").map(_.split("->")).map(arr => arr(0) -> arr(1)).toMap
    //val tmp = headers.split(",")
    //val tmp2 = tmp.map(_.split("->")).map(arr => arr(0) -> arr(1)).toMap
-
+    println(headersParse)
     printf("URL : %s",url)
     printf("ENDPOINT : %s",endpoint)
     printf("METHODS : %s",methods)
