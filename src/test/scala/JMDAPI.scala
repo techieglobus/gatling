@@ -17,7 +17,8 @@ class JMDAPI extends Simulation {
    val httpProtocol = http.baseUrl(url)
    println(headers)
    val headersParse = headers.split(",").map(_.split("->")).map(arr => arr(0) -> arr(1)).toMap
-   print(headersParse)
+   println(headersParse)
+   println(body)
 
    val scn = scenario("Test APIs")
      .doSwitch(transaction_name)( 
