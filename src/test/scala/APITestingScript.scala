@@ -15,7 +15,6 @@ class APITestingScript extends Simulation {
     val body = Source.fromFile(bodyJson).getLines.mkString
     val headers = Source.fromFile(headersJson).getLines.mkString
     
-   
 
     val transactions = Map("GET_ALL_POSTS" -> "/posts", "GET_POST" -> "/posts/${post_id}", "CREATE_POST" -> "/posts")
     printf("URL : %s",url)
