@@ -13,8 +13,11 @@ class JMDAPI extends Simulation {
    val headers = Source.fromFile(headersData).getLines.mkString
    val bodyData = "./src/test/scala/body.dat"
    val body = Source.fromFile(bodyData).getLines.mkString
-
+  
    val httpProtocol = http.baseUrl(url)
+   println(headers)
+   val headersParse = headers.split(",").map(_.split("->")).map(arr => arr(0) -> arr(1)).toMap
+   print(headersParse)
 
    val scn = scenario("Test APIs")
      .doSwitch(transaction_name)( 
@@ -41,7 +44,7 @@ class JMDAPI extends Simulation {
            {
              exec(http(requestName=transaction_name)
             .post(endpoint)
-            .headers(Map(headers))
+            .headers(headersParse)
             .body(StringBody(body))
             .check(status.is(200)))
              }

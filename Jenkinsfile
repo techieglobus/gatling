@@ -1,9 +1,13 @@
 pipeline {
     agent any
     stages {
+        stage('echo body') {
+            steps {
+                bat '''echo %BODY%'''
+            }
+        }
         stage('Upload Request Body') {
             steps {
-          echo "${BODY}"
           writeFile file: './src/test/scala/body.dat', text: params.BODY
            }
         }

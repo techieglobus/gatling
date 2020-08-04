@@ -1,0 +1,10 @@
+{
+  "simulation": "JMDAPI",
+  "simulationId": "jmdapi",
+  "start": 1596509547330,
+  "description": "",
+  "scenarios": ["Test APIs"],
+  "assertions": [
+
+  ]
+}
