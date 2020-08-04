@@ -41,6 +41,15 @@ class BlogApiTesting extends Simulation {
              .body(StringBody(body))
             .check(status.is(201)))
              }
+
+          .doIfEquals(method, "PUT")
+           {
+             exec(http(requestName=transaction_name)
+            .put(endpoint)
+            .headers(headersParse)
+             .body(StringBody(body))
+            .check(status.is(201)))
+             }
           
      setUp(scn.inject(atOnceUsers(1)).protocols(httpProtocol))
 
