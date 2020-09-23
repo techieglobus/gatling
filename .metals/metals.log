@@ -258,3 +258,124 @@ WARNING: String index out of range: -1
 2020.09.23 15:50:16 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
 2020.09.23 15:50:19 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
 2020.09.23 15:50:19 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:50:36 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 15:50:36 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 15:50:48 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 15:50:50 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:51:04 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\BlogAPITesting.scala
+2020.09.23 15:51:30 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\Api.scala' because it doesn't belong to a build target.
+2020.09.23 15:51:39 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:51:54 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:51:54 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:51:59 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:52:26 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:52:31 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 15:52:33 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:52:51 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:53:13 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:53:40 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 15:53:40 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:53:52 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:54:12 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:54:12 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:54:31 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 15:54:31 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:54:38 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:55:26 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 15:55:26 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:55:26 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:55:26 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 15:56:05 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:56:05 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:56:05 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:56:05 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:56:32 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:56:32 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:56:40 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:56:40 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:56:40 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:56:43 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:57:03 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:58:10 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:58:34 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:58:34 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:58:43 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:58:50 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\Api.scala' because it doesn't belong to a build target.
+2020.09.23 15:59:01 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:59:19 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\Api.scala' because it doesn't belong to a build target.
+2020.09.23 15:59:27 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:59:34 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\Api.scala' because it doesn't belong to a build target.
+2020.09.23 15:59:41 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:59:51 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\Api.scala' because it doesn't belong to a build target.
+2020.09.23 15:59:58 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:00:01 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:00:06 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:00:06 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:00:06 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:00:16 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:00:16 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:00:18 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:00:18 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:00:29 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:00:34 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:00:34 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:01:45 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:44:33 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:45:13 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:45:13 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:45:13 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:45:20 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\Api.scala
+2020.09.23 16:45:20 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\Api.scala
+2020.09.23 16:45:20 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\Api.scala' because it doesn't belong to a build target.
+Sep 23, 2020 4:46:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1409
+2020.09.23 16:46:24 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:46:27 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:46:34 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:49:24 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\Api.scala' because it doesn't belong to a build target.
+2020.09.23 16:49:24 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\Api.scala' because it doesn't belong to a build target.
+2020.09.23 16:49:33 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:49:42 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:49:42 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:49:45 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:49:45 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:49:55 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:49:55 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:50:00 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:50:02 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:50:02 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:50:04 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:51:24 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\Api.scala' because it doesn't belong to a build target.
+2020.09.23 16:51:24 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\Api.scala' because it doesn't belong to a build target.
+2020.09.23 16:51:31 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:51:32 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:51:44 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:53:13 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:53:32 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:54:40 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:55:09 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:55:09 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:55:13 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:55:13 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 16:55:13 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 16:58:44 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 17:03:26 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 17:03:32 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 17:06:16 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 17:06:22 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 17:06:22 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 17:06:22 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 17:06:22 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 17:06:26 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 17:06:34 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 17:06:36 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 17:06:36 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 17:06:43 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 17:06:53 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 17:07:02 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 17:07:16 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 17:07:43 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+Sep 23, 2020 5:39:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2274
+2020.09.23 17:39:07 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 17:39:07 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala

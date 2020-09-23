@@ -4,7 +4,7 @@ import scala.io.Source
 import io.gatling.core.body.Body
 import io.gatling.core.structure.{ChainBuilder, ScenarioBuilder}
 
-class BlogApiTesting extends Simulation {
+class BlogApiTesting1 extends Simulation {
      
    val url = System.getProperty("URL","http://localhost:3000")
    var endpoint = System.getProperty("ENDPOINT","/posts")

@@ -12,21 +12,26 @@ class ServiceFramework extends Simulation {
    val transaction_name = System.getProperty("TRANSACTION_NAME","Dummy Get Request")
    val users = System.getProperty("USERS","1").toInt
    val headers = System.getProperty("HEADERS").replaceAll("[\n\r]", "").replaceAll("\"","")
-   val csvfeeder = csv(fileName = "./src/test/resources/data/body.csv")
-   val bodyparams = System.getProperty("BODYPARAMS","{}")
+   val datafile = System.getProperty("DATAFILE","./src/test/resources/data/body.csv")
+   val csvfeeder = csv(fileName = datafile)
+   val bodyparams = System.getProperty("BODYPARAMS","{\"key\" : \"value\"}")
+   val headersParse = headers.split(",").map(_.split("->")).map(arr => arr(0) -> arr(1)).toMap
+   val httpProtocol = http.baseUrl(url)
 
-   println("URL : %s",url)
-   println("ENDPOINT : %s",endpoint)
-   println("METHODS : %s",method)
-   println("TRANSACTION_NAME : %s",transaction_name)
-   println("Headers : %s",headers)
+   println("URL : ",url)
+   println("ENDPOINT : ",endpoint)
+   println("METHODS : ",method)
+   println("TRANSACTION_NAME : ",transaction_name)
+   println("Headers : ",headers)
+   println("Parsed Headers : ",headersParse)
+   println("BODY PARAMS : ",bodyparams)
 
    def svfPostAPI() :ChainBuilder = {
     feed(csvfeeder)
     .exec(http(requestName=transaction_name)
     .post(endpoint)
     .headers(headersParse)
-    .body(StringBody(body)).asJson
+    .body(StringBody(bodyparams)).asJson
     .check(bodyString.saveAs(key = "responseBody")))
     .exec { session => println(session("responseBody").as[String]); session }  
    }
