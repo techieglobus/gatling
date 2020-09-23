@@ -1,0 +1,10 @@
+{
+  "simulation": "csvfeeder",
+  "simulationId": "csvfeeder",
+  "start": 1600590982101,
+  "description": "",
+  "scenarios": ["create mutiple users"],
+  "assertions": [
+
+  ]
+}

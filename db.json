@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "bob",
+      "job": "printer",
+      "id": 2
+    },
+    {
+      "name": "ritu",
+      "job": "chef",
+      "id": 3
+    },
+    {
+      "name": "kannu",
+      "job": "singer",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

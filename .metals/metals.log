@@ -4,3 +4,257 @@
 2020.08.04 23:07:25 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\BlogAPITesting.scala
 Aug 04, 2020 11:09:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+2020.08.04 23:10:46 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\BlogAPITesting.scala
+Aug 04, 2020 11:10:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.08.04 23:10:51 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\BlogAPITesting.scala
+2020.08.04 23:10:51 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\BlogAPITesting.scala
+2020.08.04 23:10:51 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\BlogAPITesting.scala
+2020.08.04 23:10:51 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\BlogAPITesting.scala
+2020.08.04 23:11:06 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\BlogAPITesting.scala
+Aug 04, 2020 11:11:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 04, 2020 11:11:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 04, 2020 11:11:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.08.04 23:56:12 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\APITestingScript.scala
+2020.08.05 07:43:26 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\BlogAPITesting.scala
+Aug 05, 2020 7:43:30 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Aug 05, 2020 7:50:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 387
+2020.08.05 08:23:33 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\APITestingScript.scala
+2020.08.05 08:23:39 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\CheckAPIResponse.scala
+2020.08.05 08:37:40 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\CheckAPIResponse.scala
+2020.08.05 08:40:49 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\CheckAPIResponse.scala' because it doesn't belong to a build target.
+2020.08.05 08:41:02 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\CheckAPIResponse.scala' because it doesn't belong to a build target.
+2020.08.05 19:42:08 INFO  shutting down Metals
+2020.09.18 23:53:25 INFO  started: Metals version 0.9.3 in workspace 'C:\Users\nbhatta\Desktop\Gattling\gatling' for client vscode.
+2020.09.18 23:53:26 INFO  time: initialize in 0.56s
+2020.09.18 23:53:27 INFO  no build target: using presentation compiler with only scala-library
+2020.09.18 23:53:27 INFO  skipping build import with status 'Requested'
+2020.09.18 23:53:30 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\BlogAPITesting.scala
+2020.09.18 23:53:30 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\CheckAPIResponse.scala
+2020.09.19 00:15:15 INFO  shutting down Metals
+2020.09.20 13:06:03 INFO  started: Metals version 0.9.3 in workspace 'C:\Users\nbhatta\Desktop\Gattling\gatling' for client vscode.
+2020.09.20 13:06:05 INFO  time: initialize in 1.59s
+2020.09.20 13:06:06 INFO  no build target: using presentation compiler with only scala-library
+2020.09.20 13:06:07 INFO  skipping build import with status 'Requested'
+2020.09.20 13:06:12 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\CheckAPIResponse.scala
+2020.09.20 13:20:58 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\package.scala
+2020.09.20 13:21:03 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\BlogAPITesting.scala
+2020.09.20 13:21:22 ERROR Cannot create file
+java.nio.file.FileAlreadyExistsException: The file C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\package.scala already exists.
+	at scala.meta.internal.metals.NewFilesProvider.createFileAndWriteText(NewFilesProvider.scala:189)
+	at scala.meta.internal.metals.NewFilesProvider.$anonfun$createPackageObject$1(NewFilesProvider.scala:162)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.NewFilesProvider.createPackageObject(NewFilesProvider.scala:156)
+	at scala.meta.internal.metals.NewFilesProvider.$anonfun$createNewFileDialog$4(NewFilesProvider.scala:74)
+	at scala.Option.fold(Option.scala:251)
+	at scala.meta.internal.metals.MetalsEnrichments$OptionFutureTransformer.$anonfun$flatMapOption$1(MetalsEnrichments.scala:683)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Sep 20, 2020 1:21:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.nio.file.FileAlreadyExistsException: The file C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\package.scala already exists.
+java.util.concurrent.CompletionException: java.nio.file.FileAlreadyExistsException: The file C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\package.scala already exists.
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.nio.file.FileAlreadyExistsException: The file C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\package.scala already exists.
+	at scala.meta.internal.metals.NewFilesProvider.createFileAndWriteText(NewFilesProvider.scala:189)
+	at scala.meta.internal.metals.NewFilesProvider.$anonfun$createPackageObject$1(NewFilesProvider.scala:162)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.NewFilesProvider.createPackageObject(NewFilesProvider.scala:156)
+	at scala.meta.internal.metals.NewFilesProvider.$anonfun$createNewFileDialog$4(NewFilesProvider.scala:74)
+	at scala.Option.fold(Option.scala:251)
+	at scala.meta.internal.metals.MetalsEnrichments$OptionFutureTransformer.$anonfun$flatMapOption$1(MetalsEnrichments.scala:683)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+2020.09.20 13:21:56 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:21:58 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:23:02 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:23:10 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:23:18 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:23:57 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:24:01 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:24:42 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:25:19 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:25:21 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+Sep 20, 2020 1:25:37 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 20, 2020 1:25:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:138)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:156)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.09.20 13:25:51 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:26:25 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:28:21 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:28:27 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:29:06 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:30:08 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:30:11 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:30:20 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:35:38 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:35:54 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:36:40 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:36:47 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:36:54 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:36:56 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:37:04 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:37:32 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala' because it doesn't belong to a build target.
+2020.09.20 13:37:32 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:37:37 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:40:02 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala' because it doesn't belong to a build target.
+2020.09.20 13:41:10 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:41:11 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:42:14 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:42:14 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:43:28 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:43:34 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+Sep 20, 2020 1:45:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Sep 20, 2020 1:45:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Sep 20, 2020 1:45:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.09.20 13:46:24 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:46:31 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:47:38 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:49:04 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:49:04 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:49:04 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:49:22 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:49:22 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala' because it doesn't belong to a build target.
+2020.09.20 13:52:30 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:52:30 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala' because it doesn't belong to a build target.
+2020.09.20 13:54:59 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:57:46 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:59:18 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:59:40 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:59:49 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 13:59:55 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 14:00:15 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 14:03:59 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 14:03:59 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 14:05:22 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 14:05:46 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 14:50:47 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 14:51:15 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 14:51:19 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala' because it doesn't belong to a build target.
+2020.09.20 14:51:19 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 14:51:27 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala' because it doesn't belong to a build target.
+2020.09.20 14:51:27 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 15:05:02 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala' because it doesn't belong to a build target.
+2020.09.20 15:05:02 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 15:18:40 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala' because it doesn't belong to a build target.
+2020.09.20 15:18:40 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala' because it doesn't belong to a build target.
+2020.09.20 15:18:54 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala' because it doesn't belong to a build target.
+2020.09.20 15:22:29 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 15:23:03 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 15:23:32 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala' because it doesn't belong to a build target.
+2020.09.20 15:23:32 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 15:31:57 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 15:34:53 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 15:35:10 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala' because it doesn't belong to a build target.
+2020.09.20 15:35:10 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.20 15:36:06 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.21 22:42:39 INFO  started: Metals version 0.9.3 in workspace 'C:\Users\nbhatta\Desktop\Gattling\gatling' for client vscode.
+2020.09.21 22:42:40 INFO  time: initialize in 0.8s
+2020.09.21 22:42:46 INFO  no build target: using presentation compiler with only scala-library
+2020.09.21 22:42:47 INFO  skipping build import with status 'Requested'
+2020.09.21 22:42:52 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\BlogAPITesting.scala
+2020.09.22 00:47:14 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.22 01:17:43 INFO  shutting down Metals
+2020.09.23 07:49:07 INFO  started: Metals version 0.9.3 in workspace 'C:\Users\nbhatta\Desktop\Gattling\gatling' for client vscode.
+2020.09.23 07:49:08 INFO  time: initialize in 1.03s
+2020.09.23 07:49:10 INFO  no build target: using presentation compiler with only scala-library
+2020.09.23 07:49:11 INFO  skipping build import with status 'Requested'
+2020.09.23 07:49:17 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.23 08:49:32 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\BlogAPITesting.scala
+2020.09.23 09:03:04 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.23 11:28:00 INFO  shutting down Metals
+2020.09.23 15:46:57 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\nbhatta\Desktop\Gattling\gatling' for client vscode.
+2020.09.23 15:46:59 INFO  time: initialize in 2.03s
+2020.09.23 15:47:03 INFO  skipping build import with status 'Requested'
+2020.09.23 15:47:19 INFO  no build target: using presentation compiler with only scala-library
+2020.09.23 15:47:19 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\feeders\csvfeeder.scala
+2020.09.23 15:47:19 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\Api.scala
+Sep 23, 2020 3:47:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Sep 23, 2020 3:47:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Sep 23, 2020 3:47:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2020.09.23 15:47:30 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:47:30 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:47:32 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:47:41 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:47:43 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:47:57 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:48:05 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:48:30 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:48:30 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:48:34 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:48:45 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:48:53 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:49:13 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:49:13 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:49:22 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:49:29 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+Sep 23, 2020 3:49:43 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2020.09.23 15:49:44 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:49:46 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 15:49:46 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 15:49:48 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:49:56 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:49:56 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:49:56 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 15:50:16 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 15:50:16 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 15:50:16 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.09.23 15:50:19 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.09.23 15:50:19 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
