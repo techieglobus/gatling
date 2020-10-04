@@ -13,12 +13,12 @@ class ServiceFramework1 extends Simulation {
    val users = System.getProperty("USERS","1").toInt
    val headers = System.getProperty("HEADERS").replaceAll("[\n\r]", "").replaceAll("\"","")
    //val datafile = System.getProperty("DATAFILE","./src/test/resources/data/body.csv")
-   val csvfeeder = csv(fileName = "./mavenscripts/src/test/resources/data/data.csv").circular
-   val queryfeeder = csv(fileName = "./mavenscripts/src/test/resources/data/query.csv").circular
+   val csvfeeder = csv(fileName = "./src/test/resources/data/data.csv").circular
+   val queryfeeder = csv(fileName = "./src/test/resources/data/query.csv").circular
    //val bodyparams = System.getProperty("BODYPARAMS","{\"key\" : \"value\"}")
-   val bodyparamsfile  = "./mavenscripts/src/test/resources/data/bodyparams.dat"
+   val bodyparamsfile  = "./src/test/resources/data/bodyparams.dat"
    val bodyparams = Source.fromFile(bodyparamsfile).getLines.mkString.replaceAll("[\n\r]", "")
-   val queryparamsfile = "./mavenscripts/src/test/resources/data/queryparams.dat"
+   val queryparamsfile = "./src/test/resources/data/queryparams.dat"
    val queryparams = Source.fromFile(queryparamsfile).getLines.mkString.replaceAll("[\n\r]", "")
    val headersParse = headers.split(",").map(_.split(":")).map(arr => arr(0) -> arr(1)).toMap
    val httpProtocol = http.baseUrl(url)
