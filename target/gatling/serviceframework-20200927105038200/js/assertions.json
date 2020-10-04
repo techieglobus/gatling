@@ -1,0 +1,10 @@
+{
+  "simulation": "ServiceFramework",
+  "simulationId": "serviceframework",
+  "start": 1601203838200,
+  "description": "",
+  "scenarios": ["Service Framework"],
+  "assertions": [
+
+  ]
+}

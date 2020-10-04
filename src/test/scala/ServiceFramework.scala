@@ -17,6 +17,9 @@ class ServiceFramework extends Simulation {
    val bodyparams = System.getProperty("BODYPARAMS","{\"key\" : \"value\"}")
    val headersParse = headers.split(",").map(_.split("->")).map(arr => arr(0) -> arr(1)).toMap
    val httpProtocol = http.baseUrl(url)
+   val queryparams = System.getProperty("QUERYPARAMS","\"key\"->\"value\"")
+   val querymap = queryparams.split(",").map(_.split("->")).map(arr => arr(0) -> arr(1)).toMap
+   val jsonfeeder = jsonFile("./src/test/resources/data/body.json")
 
    println("URL : ",url)
    println("ENDPOINT : ",endpoint)
@@ -25,6 +28,8 @@ class ServiceFramework extends Simulation {
    println("Headers : ",headers)
    println("Parsed Headers : ",headersParse)
    println("BODY PARAMS : ",bodyparams)
+   println("QUERY PARAMS : ",queryparams)
+   println("QUERY PARAMS Map : ",querymap)
 
    def svfPostAPI() :ChainBuilder = {
     feed(csvfeeder)
@@ -37,9 +42,11 @@ class ServiceFramework extends Simulation {
    }
 
    def svfGetAPI() = {
-       exec(http(requestName=transaction_name)
+       feed(jsonfeeder)
+       .exec(http(requestName=transaction_name)
             .get(endpoint)
             .headers(headersParse)
+            .queryParam("id","${id}")
             .check(bodyString.saveAs(key = "responseBody")))
             .exec { session => println(session("responseBody").as[String]); session }
    }

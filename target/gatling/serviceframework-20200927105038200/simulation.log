@@ -1,0 +1,4 @@
+RUN	ServiceFramework	serviceframework	1601203838200	 	3.3.1
+USER	Service Framework	1	START	1601203843235	1601203843235
+REQUEST	1		GET_ART	1601203843318	1601203846721	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:3000
+USER	Service Framework	1	END	1601203843235	1601203846741
