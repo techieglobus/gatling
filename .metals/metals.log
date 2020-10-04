@@ -535,3 +535,19 @@ WARNING: Unmatched cancel notification for request id 251
 2020.09.28 21:29:26 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
 2020.10.04 17:15:46 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\nbhatta\Desktop\Gattling\gatling' for client vscode.
 2020.10.04 17:15:46 INFO  time: initialize in 0.85s
+2020.10.04 17:15:52 INFO  skipping build import with status 'Requested'
+2020.10.04 17:15:56 INFO  no build target: using presentation compiler with only scala-library
+2020.10.04 17:15:56 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.10.04 17:17:19 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.10.04 17:18:12 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\SF.scala
+2020.10.04 17:18:12 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\SF.scala
+2020.10.04 17:18:15 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\SF.scala' because it doesn't belong to a build target.
+2020.10.04 17:18:15 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\SF.scala
+2020.10.04 17:18:21 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\SF.scala' because it doesn't belong to a build target.
+2020.10.04 17:18:21 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\SF.scala
+2020.10.04 17:18:25 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala' because it doesn't belong to a build target.
+2020.10.04 17:18:25 WARN  no build target for: C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\ServiceFramework.scala
+2020.10.04 17:28:22 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\SF.scala' because it doesn't belong to a build target.
+2020.10.04 17:30:20 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\SF.scala' because it doesn't belong to a build target.
+2020.10.04 17:30:32 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\SF.scala' because it doesn't belong to a build target.
+2020.10.04 17:30:40 WARN  code navigation does not work for the file 'C:\Users\nbhatta\Desktop\Gattling\gatling\src\test\scala\SF.scala' because it doesn't belong to a build target.
